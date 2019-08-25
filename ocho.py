@@ -14,6 +14,7 @@ from sklearn.metrics import mean_squared_error
 from math import sqrt
 from sklearn.linear_model import LinearRegression
 from sklearn import linear_model
+from sklearn import svm
 
 class Dato:
     def __init__(self, date, location, product, sa_quantity, temp_mean, temp_max, temp_min, sunshine_quant, price):
